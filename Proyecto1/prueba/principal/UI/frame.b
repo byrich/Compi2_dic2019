@@ -59,7 +59,7 @@ zro miBoton2:al_dar_click(){
 	miInput2.settexto(miInput.gettexto()); // copia valor de un cuadro a otro
 	_imp("texto con formato %e ", hola); // imprime en consola 25
 
-	ent miSalida = miFactorial(1*1+2*0+5); //llamada a funcion importada 'lista.h'
+	ent miSalida = miFactorial(1*1*1*1+1-2+5); //llamada a funcion importada 'lista.h'
 
 	Rmensaje("valor de miInput: %e", miSalida); //un cuadro de mensaje
 }

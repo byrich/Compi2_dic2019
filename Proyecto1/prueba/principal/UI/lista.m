@@ -39,3 +39,10 @@ ent sizeOf(lista laLista){
 	regresar size;
 
 }
+
+ent miFactorial(ent num){
+    if(num == 0){
+        regresar 1;
+    }
+    regresar num * miFactorial(num-1);
+}
